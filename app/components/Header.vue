@@ -50,115 +50,31 @@
         </div>
       </div>
 
-      <!-- lelf nav bar  -->
-      <div class="blcok lg:none">
-        <!-- buttons: login, signin, upload cv, anniversary -->
-          <div class="flex justify-end items-center gap-4 pt-3">
-
-            <!-- Anniversary -->
-            <a href="">
-              <button class="flex items-center bg-blue-500 text-white text-[15px] font-semibold px-5 py-2 rounded-full shadow-md hover:bg-blue-600 hover:shadow-blue-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-                Anniversary
-              </button>
-            </a>
-
-            <!-- Upload CV -->
-            <a href="">
-              <button class="flex items-center bg-yellow-400 text-gray-800 text-[15px] font-semibold px-5 py-2 rounded-full shadow-md hover:bg-yellow-500 hover:shadow-yellow-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-                Upload CV
-              </button>
-            </a>
-
-            <!-- Log In -->
-            <a href="">
-              <button class="text-[15px] font-semibold text-blue-500 border-2 border-blue-500 px-5 py-2 rounded-full hover:bg-blue-500 hover:text-white hover:-translate-y-0.5 transition-all duration-300">
-                Log In
-              </button>
-            </a>
-
-            <!-- Sign Up -->
-            <a href="">
-              <button class="text-[15px] font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 px-5 py-2 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-blue-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-                Sign Up
-              </button>
-            </a>
-
-          </div>
-
-
       <!-- buttom log in sig in uploade cv and anniversary -->
-        <div class="flex justify-end gap-[40px] pt-[15px]">
-          <ul>
-            <li class="flex gap-[30px]">
-
-              
-              <div class="relative block group">
-                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                  Job Search
-                </a>
-                    <!-- Dropdown -->
-                  <div class="absolute hidden group-hover:block top-full left-0 bg-white shadow-lg rounded-md w-[280px] z-50">
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Jobs</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Our Sectors</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full ">Register</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">My Profile</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">How To Manage My Profile</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full ">Why Apply With MyWorld Carees</a>
-                  </div>
-              </div>
-
-
-              <div class="relative inline-block group">
-                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                  Recruitment Services
-                </a>
-                 <!-- Dropdown -->
-                  <div class="absolute hidden group-hover:block top-full left-0 bg-white shadow-lg rounded-md w-[280px] z-50 ">
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Executive Search</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Contigency Search</a>
-                  </div>
-              </div>
-
-
-              <div class="relative inline-block group">
-                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                  Outsourcing Services
-                </a>
-                  <!-- Dropdown -->
-                  <div class="absolute hidden group-hover:block top-full left-0 bg-white shadow-lg rounded-md w-[370px] z-50">
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Prayroll Outsourcing</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Contract And Outsourcing Staffing Sulotions</a>
-                  </div>
-              </div>
-
-
-              <div class="relative inline-block group">
-                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                  About
-                </a>
-                  <!-- Dropdown -->
-                  <div class="absolute hidden group-hover:block top-full left-0 bg-white shadow-lg rounded-md w-[280px] z-50">
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">About MyWorld Careers</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">My cooseMyWorld Careers</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Our Culture</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Meet Our LeaderShip Team</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Testimonial</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Case Studie</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">FAQ</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">SCR Activities</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">10th Anniversary</a>
-                    <a href="" class="block px-4 py-2 text-[16px] hover:bg-gray-100 text-gray-700 font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">My cooseMyWorld Careers</a>
-                  </div>
-              </div>
-          
-
-              <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Alog & Resourcec</a>
-              <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a>
-            </li>
-          </ul>
+        <div class="flex justify-center gap-[40px] pt-[35px]">
+            <ul>
+              <li class="flex gap-[30px] mr-[70px] ">
+                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">HOME</a>
+                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">ABOUT US</a>
+                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">OUR SERVICES</a>
+                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">NEW & INSIGHT</a>
+                <a href="" class="text-[20px] font-semibold text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">COTACT US</a>
+              </li>
+            </ul>
+            <div class="flex gap-[20px]">
+              <a href="">
+                <button class="text-[15px] font-semibold text-blue-500 border-2 border-blue-500 px-5 py-2 rounded-full hover:bg-blue-500 hover:text-white hover:-translate-y-0.5 transition-all duration-300">
+                  Log In
+                </button>
+              </a>
+              <!-- Sign Up -->
+              <a href="">
+                <button class="text-[15px] font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 px-5 py-2 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-blue-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+                  Sign Up
+                </button>
+              </a>
+            </div>
         </div>
-           
-      </div>
 
       
 
