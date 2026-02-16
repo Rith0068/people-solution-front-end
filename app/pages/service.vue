@@ -1,30 +1,30 @@
 <template>
-  <div class="bg-gray-100 mt-[1px]">
+  <div class="bg-gray-100">
     <!-- hero section service -->
     <div class="relative">
       <!-- Image -->
-      <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-[300px] object-cover" />
+      <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-75 object-cover" />
 
       <!-- Text Overlay -->
-      <div class="absolute inset-0 flex mt-[10px] items-center justify-center">
-        <h1 class="text-white font-bold text-6xl font-bold p-4  bg-opacity-50">
+      <div class="absolute inset-0 flex mt-2.5 items-center justify-center">
+        <h1 class="text-white text-6xl font-bold p-4  bg-opacity-50">
           OUR SERVICE
         </h1>
       </div>
     </div>
 
     <!-- service intoduce section -->
-    <div class="   w-4/5 m-auto mt-[90px] flex justify-between gap-[30px]">
+    <div class="   w-4/5 m-auto mt-90px flex justify-between gap-30px">
       <div class="w-4/5 m-auto">
         <button
           class="text-sm font-semibold inline-block uppercase tracking-wind px-3 py-1 bg-[#E9C769] rounded-full">Our
           Service</button>
-        <h2 class="te mt-[30px] text-4xl lg:text-5xl fond-bold leading-light ">
+        <h2 class="te mt-7.5 text-4xl lg:text-5xl fond-bold leading-light ">
           Premium HR Services Tailored for Cambodia.
         </h2>
       </div>
 
-      <p class="text-md mt-[60px] text-gray-600 leading-relaxed ">
+      <p class="text-md mt-15 text-gray-600 leading-relaxed ">
         We deliver expert recruitment, payroll, and HR solutions—helping your business grow with trusted support and
         local
         expertise. Our comprehensive approach ensures seamless integration of HR best practices tailored specifically
