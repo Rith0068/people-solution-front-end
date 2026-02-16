@@ -1,1 +1,3 @@
-<template>djkfs</template>
+<template>
+    home page
+</template>

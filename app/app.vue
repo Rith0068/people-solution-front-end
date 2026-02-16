@@ -2,6 +2,9 @@
 import Header from './components/Header.vue';
 </script>
 <template>
-  <Header />
-  <NuxtPage />
+  <div>
+    <RouterView />
+    
+
+  </div>
 </template>
