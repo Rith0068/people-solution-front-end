@@ -7,7 +7,7 @@
 
                 <br>
 
-                <div class="block ml-[60px]">
+                <div class="block ml-15">
                     <p class="text-gray-50 text-[18px]">
                         Leading HR consulting firm in Cambodia providing comprehensive 
                         <br>human resource solutions and strategic workforce management 
@@ -17,9 +17,9 @@
 
                 <br>
 
-                <div class="flex ml-[60px] text-[18px] gap-[10px]">
-                    <span class="rounded-[360px] bg-yellow-500 w-[30px] h-[30px] justify-center flex">
-                        <i class="fa-solid fa-location-dot mt-[5px] text-blue-400"></i>
+                <div class="flex ml-15 text-[18px] gap-2.5">
+                    <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
+                        <i class="fa-solid fa-location-dot mt-1.25 text-blue-400"></i>
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         #306BCD, 3rd Floor, Monivong Boulevard, Phnom Penh, Cambodia
@@ -28,9 +28,9 @@
 
                 <br>
 
-                <div class="flex ml-[60px] text-[18px] gap-[10px]">
-                    <span class="rounded-[360px] bg-yellow-500 w-[30px] h-[30px] justify-center flex">
-                        <i class="fa-regular fa-envelope mt-[5px] text-blue-400"></i>
+                <div class="flex ml-15 text-[18px] gap-2.5">
+                    <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
+                        <i class="fa-regular fa-envelope mt-1.25 text-blue-400"></i>
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         info@premiumhumanresources.com
@@ -39,9 +39,9 @@
 
                 <br>
 
-                <div class="flex ml-[60px] text-[18px] gap-[10px]">
-                    <span class="rounded-[360px] bg-yellow-500 w-[30px] h-[30px] justify-center flex">
-                        <i class="fa-solid fa-phone mt-[5px] text-blue-400"></i>
+                <div class="flex ml-15 text-[18px] gap-2.5">
+                    <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
+                        <i class="fa-solid fa-phone mt-1.25 text-blue-400"></i>
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         +855 012 902 527 
@@ -53,13 +53,13 @@
             </div>
             <!--end lefl footer-->
             <!--start right footer-->
-            <div class="flex mt-[30px] text-gray-50 ">
+            <div class="flex mt-7.5 text-gray-50 ">
                  <div class="flex flex-col gap-4">
 
         <!-- Heading -->
-        <h4 class="text-white text-[18px] font-bold tracking-widest uppercase relative w-fit mr-[100px]
-                after:absolute after:bottom-[-8px] after:left-0
-                after:w-full after:h-[3px] after:bg-yellow-400 after:rounded-full">
+        <h4 class="text-white text-[18px] font-bold tracking-widest uppercase relative w-fit mr-25
+                after:absolute after:bottom-8 after:left-0
+                after:w-full after:h-0.75 after:bg-yellow-400 after:rounded-full">
         Quick Links
         </h4>
 
@@ -83,7 +83,7 @@
 
   </div>
                 <div class="flex flex-col gap-4">
-        <h4 class="text-white text-[17px] font-bold tracking-wider uppercase mr-[100px]
+        <h4 class="text-white text-[17px] font-bold tracking-wider uppercase mr-25
                    pb-2 border-b-2 border-yellow-400 w-fit">
           Follow Us
         </h4>
@@ -127,7 +127,7 @@
         <!--last foot-->
         <hr>
         <div class="flex">
-            <h3 class="m-auto text-[22px] p-[20px] text-gray-50">
+            <h3 class="m-auto text-[22px] p-5 text-gray-50">
                 © 2023 Human Resource Service. All rights reserved.
             </h3>
         </div>

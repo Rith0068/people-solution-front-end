@@ -5,6 +5,6 @@ import Header from './components/Header.vue';
   <div>
     <Header />
     <NuxtPage />
-
+    <Footer />
   </div>
 </template>
