@@ -1,12 +1,12 @@
 <template>
   <div class="bg-gray-100 ">
     <!-- hero section service -->
-    <div class="">
+    <div class="relative">
       <!-- Image -->
       <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-[300px] object-cover" />
 
       <!-- Text Overlay -->
-      <div class="absolute inset-0 flex mb-[700px] items-center justify-center">
+      <div class="absolute inset-0 flex mt-[10px] items-center justify-center">
         <h1 class="text-white font-bold text-6xl font-bold p-4  bg-opacity-50">
           OUR SERVICE
         </h1>
