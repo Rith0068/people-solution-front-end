@@ -270,6 +270,13 @@
 
       </div>
 
+      <div class="fixed bottom-8 right-8">
+      <button @click="scrollToTop"
+        class="bg-[#E9C46A] w-12 h-12 rounded-lg flex items-center justify-center shadow-lg hover:-translate-y-1 transition-transform">
+        <i class="fa-solid fa-arrow-up text-[#2D3E50]"></i>
+      </button>
+    </div>
+
     </div>
   </section>
 
@@ -278,5 +285,8 @@
 </template>
 
 <script setup>
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
 </script>
 
