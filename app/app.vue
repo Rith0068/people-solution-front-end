@@ -3,4 +3,5 @@ import Header from './components/Header.vue';
 </script>
 <template>
   <Header />
+  <Footer />
 </template>
