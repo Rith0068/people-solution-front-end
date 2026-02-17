@@ -4,7 +4,8 @@ import Header from './components/Header.vue';
 <template>
 
   <Header />
-
  <NuxtPage />
+ <Footer />
+
 
 </template>
