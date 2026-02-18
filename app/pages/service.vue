@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 ">
+  <div class="bg-gray-100 mt-[1px]">
     <!-- hero section service -->
     <div class="relative">
       <!-- Image -->
