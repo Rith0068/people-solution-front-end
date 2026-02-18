@@ -1,6 +1,7 @@
 <template>
   <div class="bg-slate-50 text-slate-800">
 
+
   <!-- Hero Section -->
     <section class="relative h-[400px] flex items-center justify-center text-center text-white">
 
@@ -18,7 +19,6 @@
         <h1 class="text-4xl md:text-7xl font-bold mb-3">
           Our Story
         </h1>
-        
       </div>
 
     </section>

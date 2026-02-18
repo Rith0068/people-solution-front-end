@@ -1,4 +1,5 @@
 <template>
+
   <div class="bg-gray-100 ">
     <!-- hero section service -->
     <div class="relative">
@@ -9,9 +10,11 @@
       <div class="absolute inset-0 flex mt-[10px] items-center justify-center">
         <h1 class="text-white font-bold text-6xl font-bold p-4  bg-opacity-50">
           OUR SERVICE
+
         </h1>
       </div>
     </div>
+
 
     <!-- service intoduce section -->
     <div class="   w-4/5 m-auto mt-[90px] flex justify-between gap-[30px]">
@@ -123,6 +126,8 @@
 
     </section>
 
+
   </div>
 
 </template>
+
