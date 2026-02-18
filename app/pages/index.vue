@@ -1,4 +1,5 @@
 <template>
+    
     <!-- hero section -->
     <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <img src="@/assets/images/los.png" alt="" class="w-full h-full object-cover blur-[0.1px] absolute inset-0">

@@ -4,6 +4,7 @@ const properties = data
 </script>
 
 
+
 <template>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-[1260px]">
     <div
