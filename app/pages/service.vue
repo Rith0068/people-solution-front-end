@@ -1,58 +1,40 @@
 <template>
-  <div class="bg-gray-100">
+
+  <div class="bg-gray-100 ">
     <!-- hero section service -->
     <div class="relative">
       <!-- Image -->
-      <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-100 object-cover" />
+      <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-[300px] object-cover" />
 
       <!-- Text Overlay -->
-      <div class="absolute inset-0 flex mt-2.5 items-center justify-center">
-        <h1 class="text-white text-4xl md:text-7xl font-bold p-4  bg-opacity-50">
-          Our Service
+      <div class="absolute inset-0 flex mt-[10px] items-center justify-center">
+        <h1 class="text-white font-bold text-6xl font-bold p-4  bg-opacity-50">
+          OUR SERVICE
+
         </h1>
       </div>
     </div>
 
 
-    <!-- Our Story Section -->
-    <section class="bg-gray py-20">
-      <div class="max-w-7xl mx-auto px-6">
-
-        <div class="grid md:grid-cols-2 gap-12 items-start">
-
-          <!-- Left Content -->
-          <div>
-
-            <!-- Badge -->
-            <span class="inline-block bg-yellow-400 text-slate-800 text-sm font-semibold px-4 py-1 rounded-full mb-6">
-              OUR SERVICE
-            </span>
-
-            <!-- Title -->
-            <h2 class="text-4xl md:text-5xl font-bold text-slate-800 leading-tight">
-              Premium HR Services Tailored for Cambodia.
-            </h2>
-
-          </div>
-
-          <!-- Right Content -->
-          <div>
-            <p class="text-slate-600 text-lg leading-relaxed">
-              We deliver expert recruitment, payroll, and HR solutions—helping your business grow with trusted support
-              and
-              local
-              expertise. Our comprehensive approach ensures seamless integration of HR best practices tailored
-              specifically
-              for
-              the Cambodian market.
-            </p>
-          </div>
-
-        </div>
+    <!-- service intoduce section -->
+    <div class="   w-4/5 m-auto mt-[90px] flex justify-between gap-[30px]">
+      <div class="w-4/5 m-auto">
+        <button
+          class="text-sm font-semibold inline-block uppercase tracking-wind px-3 py-1 bg-[#E9C769] rounded-full">Our
+          Service</button>
+        <h2 class="te mt-[30px] text-4xl lg:text-5xl fond-bold leading-light ">
+          Premium HR Services Tailored for Cambodia.
+        </h2>
       </div>
-    </section>
 
-
+      <p class="text-md mt-[60px] text-gray-600 leading-relaxed ">
+        We deliver expert recruitment, payroll, and HR solutions—helping your business grow with trusted support and
+        local
+        expertise. Our comprehensive approach ensures seamless integration of HR best practices tailored specifically
+        for
+        the Cambodian market.
+      </p>
+    </div>
 
     <!-- service card section -->
     <section class="py-30 slide-up-animation animate-in data-scroll-section w-full">
@@ -144,19 +126,8 @@
 
     </section>
 
-    <div class="fixed bottom-8 right-8">
-      <button @click="scrollToTop"
-        class="bg-[#E9C46A] w-12 h-12 rounded-lg flex items-center justify-center shadow-lg hover:-translate-y-1 transition-transform">
-        <i class="fa-solid fa-arrow-up text-[#2D3E50]"></i>
-      </button>
-    </div>
 
   </div>
 
-
 </template>
-<script setup>
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
-</script>
+

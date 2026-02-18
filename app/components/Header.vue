@@ -205,6 +205,7 @@ const navLinks = [
   { label: 'HOME',         to: '/'          },
   { label: 'ABOUT US',     to: '/about'     },
   { label: 'OUR SERVICE', to: '/service'  },
+  { label: 'NEWS & INSIGHTS', to: '/news'   },
   { label: 'CONTACT US',   to: '/contact'   },
   { label: 'JOB REQUIRMENT', to: '/job-requirment'   },
 ]
