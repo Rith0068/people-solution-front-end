@@ -190,4 +190,4 @@ const navLinks = [
   { label: 'NEWS & INSIGHTS', to: '/news'   },
   { label: 'CONTACT US',   to: '/contact'   },
 ]
-</script>
+</script>o

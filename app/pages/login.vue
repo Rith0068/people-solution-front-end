@@ -31,7 +31,7 @@
   <div class="flex-grow border-t border-gray-200"></div>
   
   <span class="flex-shrink mx-4 text-gray-500 text-sm font-medium">
-    Or <router-link to="/register" class="text-indigo-600 font-bold hover:underline">Register Now</router-link> to 
+    Or <router-link to="/signup" class="text-indigo-600 font-bold hover:underline">signup Now</router-link> to 
     <span class="text-black font-bold ml-1">Login</span> with Others
   </span>
   
