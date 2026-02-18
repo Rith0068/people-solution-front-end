@@ -5,9 +5,9 @@
         style="background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&q=80&w=2070');">
       </div>
       <div
-        class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] bg-size-20px-20px">
+        class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] bg-size-[20px_20px]">
       </div>
-      <h1 class="relative z-10 text-white text-5xl font-bold tracking-tight">Contact Us</h1>
+      <h1 class="relative z-10 text-white text-4xl md:text-7xl font-bold tracking-tight">Contact Us</h1>
     </section>
 
     <section class="max-w-7xl mx-auto px-6 -mt-20 relative z-20 pb-12">

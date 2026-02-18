@@ -1,7 +1,7 @@
 <template>
   <header
-    :class="['w-full z-[100] top-0 sticky bg-white transition-all duration-300 ease-in-out', scrolled ? 'shadow-2xl py-2' : 'shadow-xl py-3']">
-    <div class="max-w-[1400px] mx-auto px-6 flex items-center justify-between gap-6">
+    :class="['w-full z-100 top-0 sticky bg-white transition-all duration-300 ease-in-out', scrolled ? 'shadow-2xl py-2' : 'shadow-xl py-3']">
+    <div class="max-w-350 mx-auto px-6 flex items-center justify-between gap-6">
 
       <!-- ── LOGO ── -->
       <NuxtLink to="/" class="flex items-center gap-2 shrink-0">
@@ -69,7 +69,7 @@
           :to="link.to"
           class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap
                  after:absolute after:bottom-0 after:left-0
-                 after:w-0 after:h-[2px] after:bg-blue-500
+                 after:w-0 after:h-0.5 after:bg-blue-500
                  after:transition-all after:duration-300
                  hover:after:w-full hover:text-blue-600
                  transition-colors duration-200"
@@ -93,7 +93,7 @@
         <NuxtLink
           to="/signup"
           class="text-[14px] font-semibold text-white
-                 bg-gradient-to-r from-blue-500 to-blue-700
+                 bg-linear-to-r from-blue-500 to-blue-700
                  px-5 py-2 rounded-full shadow-md
                  hover:from-blue-600 hover:to-blue-800
                  hover:shadow-blue-300 hover:shadow-lg hover:-translate-y-0.5
@@ -168,7 +168,7 @@
             <NuxtLink
               to="/signup"
               class="flex-1 text-center text-[14px] font-semibold text-white
-                     bg-gradient-to-r from-blue-500 to-blue-700
+                     bg-linear-to-r from-blue-500 to-blue-700
                      px-4 py-2 rounded-full shadow-md
                      hover:from-blue-600 hover:to-blue-800 transition-all duration-300"
               @click="menuOpen = false"
@@ -205,7 +205,7 @@ const navLinks = [
   { label: 'HOME',         to: '/'          },
   { label: 'ABOUT US',     to: '/about'     },
   { label: 'OUR SERVICE', to: '/service'  },
-  { label: 'NEWS & INSIGHTS', to: '/news'   },
   { label: 'CONTACT US',   to: '/contact'   },
+  { label: 'JOB REQUIRMENT', to: '/job-requirment'   },
 ]
 </script>

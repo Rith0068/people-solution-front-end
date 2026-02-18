@@ -7,8 +7,8 @@
 
       <!-- Text Overlay -->
       <div class="absolute inset-0 flex mt-2.5 items-center justify-center">
-        <h1 class="text-white text-6xl font-bold p-4  bg-opacity-50">
-          OUR SERVICE
+        <h1 class="text-white text-4xl md:text-7xl font-bold p-4  bg-opacity-50">
+          Our Service
         </h1>
       </div>
     </div>
