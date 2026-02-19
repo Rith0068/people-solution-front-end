@@ -43,7 +43,7 @@
 
         <div class="flex items-center gap-6">
           <div class="relative">
-            <span class="text-xl">🔔</span>
+            <span class="text-xl"><i class="fa-solid fa-bell"></i></span>
             <span v-if="showAlert" class="absolute -top-1 -right-2 bg-red-500 text-white text-xs px-1 rounded-full">1</span>
           </div>
 
@@ -125,7 +125,7 @@ onMounted(() => {
 const form = reactive({
   title: 'Senior UI/UX Designer',
   expertise: 'Product Design, Branding, Marketing Strategy',
-  experience: '8 Years',
+  experience: user.value ? Math.floor(Math.random() * 10) + 1 : '',
   company: 'Creative Studio',
   industry: 'Technology',
   linkedin: '',
