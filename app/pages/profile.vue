@@ -7,7 +7,7 @@
         <!-- Avatar Upload -->
         <div class="relative">
           <img
-            :src="user.avatar || 'https://i.pravatar.cc/150'"
+            :src="avatarPreview || 'https://i.pravatar.cc/150'"
             class="w-20 h-20 rounded-full border object-cover"
           />
           <input
@@ -48,7 +48,7 @@
           </div>
 
           <div class="flex items-center gap-3">
-            <img :src="user.avatar || 'https://i.pravatar.cc/100'" class="w-10 h-10 rounded-full object-cover" />
+            <img :src="avatarPreview || 'https://i.pravatar.cc/100'" class="w-10 h-10 rounded-full object-cover" />
             <span class="font-medium">{{ user?.name }}</span>
           </div>
         </div>
@@ -108,31 +108,40 @@
 </template>
 
 <script setup>
+import { reactive, ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import SettingItem from '~/components/SettingItem.vue'
 
 const router = useRouter()
-const user = useState('user', () => null)
+const userState = useState('user', () => null)
+const user = reactive(userState.value || {})
 
+const avatarPreview = ref(user.avatar || null)
 const activeTab = ref('profile')
 const showAlert = ref(true)
 
 onMounted(() => {
   const savedUser = localStorage.getItem('user')
-  if (savedUser) user.value = JSON.parse(savedUser)
-  if (!user.value) router.push('/login')
+  if (savedUser) {
+    const parsedUser = JSON.parse(savedUser)
+    Object.assign(user, parsedUser)
+    avatarPreview.value = parsedUser.avatar
+  }
+  if (!user.name) router.push('/login')
 })
 
+// Form reactive
 const form = reactive({
   title: 'Senior UI/UX Designer',
   expertise: 'Product Design, Branding, Marketing Strategy',
-  experience: user.value ? Math.floor(Math.random() * 10) + 1 : '',
+  experience: user.name ? Math.floor(Math.random() * 10) + 1 : '',
   company: 'Creative Studio',
   industry: 'Technology',
   linkedin: '',
   website: '',
   bio: 'Passionate designer focused on user-centered experiences and scalable digital products.',
-  name: user.value?.name || '',
-  email: user.value?.email || '',
+  name: user.name || '',
+  email: user.email || '',
   phone: '',
   location: 'United States',
   language: 'English',
@@ -141,12 +150,15 @@ const form = reactive({
   devices: 'MacBook Pro, iPhone 15'
 })
 
+// Logout
 const logout = () => {
-  user.value = null
+  Object.keys(user).forEach(k => delete user[k])
   localStorage.removeItem('user')
+  userState.value = null
   router.push('/login')
 }
 
+// Tabs styling
 const tabClass = (tab) =>
   activeTab.value === tab
     ? 'border-b-2 border-indigo-600 text-indigo-600 pb-3'
@@ -156,10 +168,13 @@ const tabClass = (tab) =>
 const onAvatarChange = (e) => {
   const file = e.target.files[0]
   if (!file) return
+
   const reader = new FileReader()
   reader.onload = () => {
-    user.value.avatar = reader.result
-    localStorage.setItem('user', JSON.stringify(user.value))
+    avatarPreview.value = reader.result
+    user.avatar = reader.result
+    userState.value = user
+    localStorage.setItem('user', JSON.stringify(user))
   }
   reader.readAsDataURL(file)
 }
