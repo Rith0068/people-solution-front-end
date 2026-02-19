@@ -73,3 +73,13 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Requirement
+
+Ensure you have the following sofware version install
+
+-   **tailwind.css**: 4.1.18
+-   **Node. js**: 22.22.0
+-   **Nuxt .js**: 4.3.1
+-   **Vite**: 7.3.1
+-   **Vue**: 3.5.28

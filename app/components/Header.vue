@@ -1,7 +1,7 @@
 <template>
   <header
-    :class="['w-full z-[100] top-0 sticky bg-white transition-all duration-300 ease-in-out', scrolled ? 'shadow-2xl py-2' : 'shadow-xl py-3']">
-    <div class="max-w-[1400px] mx-auto px-6 flex items-center justify-between gap-6">
+    :class="['w-full z-100 top-0 sticky bg-white transition-all duration-300 ease-in-out', scrolled ? 'shadow-2xl py-2' : 'shadow-xl py-3']">
+    <div class="max-w-350 mx-auto px-6 flex items-center justify-between gap-6">
 
       <NuxtLink to="/" class="flex items-center gap-2 shrink-0">
         <div class="flex items-end">
@@ -29,9 +29,11 @@
       </NuxtLink>
 
       <nav class="hidden lg:flex items-center gap-7">
+
         <NuxtLink v-for="link in navLinks" :key="link.label" :to="link.to"
           class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:text-blue-600 transition-colors duration-200"
           active-class="text-blue-600 after:w-full">
+
           {{ link.label }}
         </NuxtLink>
       </nav>
@@ -40,7 +42,9 @@
         
         <NuxtLink v-if="!user"
           to="/signup"
+
           class="text-[14px] font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300"
+
         >
           Sign Up Free
         </NuxtLink>
@@ -82,8 +86,10 @@
             </div>
         </div>
 
+
         <nav class="flex flex-col gap-2">
            <NuxtLink v-for="link in navLinks" :key="link.label" :to="link.to" @click="menuOpen = false" class="py-2 font-bold text-gray-700 hover:text-blue-600">{{ link.label }}</NuxtLink>
+
         </nav>
 
         <div class="pt-4 border-t border-gray-50">
@@ -122,10 +128,12 @@ const logout = () => {
 }
 
 const navLinks = [
+
     { label: 'HOME', to: '/' },
     { label: 'ABOUT US', to: '/about' },
     { label: 'OUR SERVICES', to: '/services' },
     { label: 'CONTACT US', to: '/contact' },
     { label: 'JOB', to: '/job' }
+
 ]
 </script>
