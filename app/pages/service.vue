@@ -4,7 +4,7 @@
     <!-- hero section service -->
     <div class="relative">
       <!-- Image -->
-      <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-[300px] object-cover" />
+      <img src="../assets/images/bg-service.jpg" alt="Sample Image" class="w-full h-[300px] object-cover" />
 
       <!-- Text Overlay -->
       <div class="absolute inset-0 flex mt-[10px] items-center justify-center">
