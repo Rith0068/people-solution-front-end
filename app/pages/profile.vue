@@ -1,120 +1,166 @@
 <template>
-  <div class="min-h-screen bg-[#f8fafc] font-sans">
-    <main class="max-w-[1200px] mx-auto pt-10 px-6 pb-20">
-      
-      <div class="bg-white rounded-[32px] p-8 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center gap-8 mb-10">
-        <div class="relative group">
-          <div class="w-32 h-32 rounded-full border-4 border-[#f0f7f4] overflow-hidden shadow-md">
-            <img 
-              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200" 
-              alt="User Avatar"
-              class="w-full h-full object-cover"
-            />
-          </div>
-          <button class="absolute bottom-1 right-1 bg-[#4a7c3f] text-white p-2 rounded-full shadow-lg hover:scale-110 transition-transform">
-            <i class="fa-solid fa-camera text-xs"></i>
-          </button>
+  <div class="min-h-screen bg-gray-100 flex">
+
+    <!-- SIDEBAR -->
+    <aside class="w-64 bg-white border-r hidden lg:block">
+      <div class="p-6 border-b flex flex-col items-center">
+        <!-- Avatar Upload -->
+        <div class="relative">
+          <img
+            :src="user.avatar || 'https://i.pravatar.cc/150'"
+            class="w-20 h-20 rounded-full border object-cover"
+          />
+          <input
+            type="file"
+            class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+            @change="onAvatarChange"
+          />
+          <span class="absolute bottom-0 right-0 bg-indigo-600 text-white text-xs px-2 py-1 rounded-full cursor-pointer">✎</span>
         </div>
 
-        <div class="flex-grow text-center md:text-left">
-          <div class="flex flex-col md:flex-row md:items-center gap-3 mb-2">
-            <h1 class="text-3xl font-black text-gray-900 tracking-tight">John Doe</h1>
-            <span class="bg-[#4a7c3f]/10 text-[#4a7c3f] text-xs font-bold px-3 py-1 rounded-full uppercase self-center md:self-auto">
-              Pro Member
-            </span>
+        <div class="mt-4 text-center">
+          <p class="font-semibold text-gray-800">{{ user?.name }}</p>
+          <p class="text-sm text-gray-500">{{ user?.email }}</p>
+        </div>
+      </div>
+
+      <nav class="p-6 space-y-4 text-gray-600 font-medium">
+        <p class="hover:text-indigo-600 cursor-pointer">Dashboard</p>
+        <p class="hover:text-indigo-600 cursor-pointer">Messages</p>
+        <p class="hover:text-indigo-600 cursor-pointer">Bookings</p>
+        <p class="hover:text-indigo-600 cursor-pointer">Achievements</p>
+        <p class="hover:text-indigo-600 cursor-pointer">Connections</p>
+        <p class="hover:text-indigo-600 cursor-pointer">Settings</p>
+      </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <div class="flex-1">
+
+      <!-- HEADER -->
+      <div class="bg-white px-8 py-4 flex justify-between items-center border-b">
+        <h1 class="text-2xl font-bold text-gray-800">Account Settings</h1>
+
+        <div class="flex items-center gap-6">
+          <div class="relative">
+            <span class="text-xl">🔔</span>
+            <span v-if="showAlert" class="absolute -top-1 -right-2 bg-red-500 text-white text-xs px-1 rounded-full">1</span>
           </div>
-          <p class="text-gray-500 font-medium mb-4">Senior Project Manager at People Solution</p>
-          
-          <div class="flex flex-wrap justify-center md:justify-start gap-4">
-            <button class="bg-[#4a7c3f] text-white px-6 py-2.5 rounded-xl font-bold shadow-lg shadow-[#4a7c3f]/20 hover:-translate-y-0.5 transition-all">
-              Edit Profile
-            </button>
-            <button class="bg-white border-2 border-gray-100 text-gray-600 px-6 py-2.5 rounded-xl font-bold hover:bg-gray-50 transition-all">
-              Settings
-            </button>
+
+          <div class="flex items-center gap-3">
+            <img :src="user.avatar || 'https://i.pravatar.cc/100'" class="w-10 h-10 rounded-full object-cover" />
+            <span class="font-medium">{{ user?.name }}</span>
           </div>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-        <div class="bg-white p-6 rounded-[24px] border border-gray-100 shadow-sm flex items-center gap-5">
-          <div class="w-14 h-14 bg-[#4a7c3f]/10 rounded-2xl flex items-center justify-center text-[#4a7c3f]">
-            <i class="fa-solid fa-briefcase text-xl"></i>
-          </div>
-          <div>
-            <p class="text-gray-400 text-sm font-bold uppercase tracking-wider">Projects</p>
-            <p class="text-2xl font-black text-gray-900">12</p>
-          </div>
+      <!-- CONTENT -->
+      <div class="p-8">
+
+        <!-- Tabs -->
+        <div class="flex gap-8 border-b mb-8 text-gray-500 font-medium">
+          <button @click="activeTab='profile'" :class="tabClass('profile')">Professional Profile</button>
+          <button @click="activeTab='personal'" :class="tabClass('personal')">Personal Info</button>
+          <button @click="activeTab='security'" :class="tabClass('security')">Security</button>
         </div>
 
-        <div class="bg-white p-6 rounded-[24px] border border-gray-100 shadow-sm flex items-center gap-5">
-          <div class="w-14 h-14 bg-[#4a90a4]/10 rounded-2xl flex items-center justify-center text-[#4a90a4]">
-            <i class="fa-solid fa-check-double text-xl"></i>
-          </div>
-          <div>
-            <p class="text-gray-400 text-sm font-bold uppercase tracking-wider">Completed</p>
-            <p class="text-2xl font-black text-gray-900">84</p>
-          </div>
+        <div class="bg-white rounded-2xl shadow-sm divide-y">
+
+          <!-- PROFILE -->
+          <template v-if="activeTab==='profile'">
+            <SettingItem label="Professional Title" v-model="form.title" />
+            <SettingItem label="Expertise" v-model="form.expertise" />
+            <SettingItem label="Years of Experience" v-model="form.experience" />
+            <SettingItem label="Company" v-model="form.company" />
+            <SettingItem label="Industry" v-model="form.industry" />
+            <SettingItem label="LinkedIn" v-model="form.linkedin" />
+            <SettingItem label="Portfolio Website" v-model="form.website" />
+            <SettingItem label="Biography" v-model="form.bio" type="textarea" />
+          </template>
+
+          <!-- PERSONAL -->
+          <template v-if="activeTab==='personal'">
+            <SettingItem label="Full Name" v-model="form.name" />
+            <SettingItem label="Email" v-model="form.email" />
+            <SettingItem label="Phone" v-model="form.phone" />
+            <SettingItem label="Location" v-model="form.location" />
+            <SettingItem label="Language" v-model="form.language" />
+          </template>
+
+          <!-- SECURITY -->
+          <template v-if="activeTab==='security'">
+            <SettingItem label="Password" v-model="form.password" type="password" />
+            <SettingItem label="Two-Factor Authentication" v-model="form.twofa" />
+            <SettingItem label="Login Devices" v-model="form.devices" />
+          </template>
+
         </div>
 
-        <div class="bg-white p-6 rounded-[24px] border border-gray-100 shadow-sm flex items-center gap-5">
-          <div class="w-14 h-14 bg-yellow-100 rounded-2xl flex items-center justify-center text-yellow-600">
-            <i class="fa-solid fa-star text-xl"></i>
-          </div>
-          <div>
-            <p class="text-gray-400 text-sm font-bold uppercase tracking-wider">Reviews</p>
-            <p class="text-2xl font-black text-gray-900">4.9</p>
-          </div>
+        <!-- Logout -->
+        <div class="mt-8">
+          <button @click="logout" class="bg-red-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-red-600 transition">Logout</button>
         </div>
+
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-        <div class="lg:col-span-2 bg-white rounded-[32px] p-8 border border-gray-100 shadow-sm">
-          <h3 class="text-xl font-black text-gray-900 mb-6 flex items-center gap-2">
-            <span class="w-2 h-6 bg-[#4a7c3f] rounded-full"></span>
-            Recent Activities
-          </h3>
-          
-          <div class="space-y-6">
-            <div v-for="i in 3" :key="i" class="flex items-start gap-4 pb-6 border-b border-gray-50 last:border-0">
-              <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center shrink-0">
-                <i class="fa-solid fa-file-lines text-gray-400"></i>
-              </div>
-              <div>
-                <p class="text-gray-900 font-bold">Updated "Q1 Financial Report"</p>
-                <p class="text-gray-400 text-sm">Yesterday at 4:30 PM • Finance Department</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-[#4a7c3f] to-[#4a90a4] rounded-[32px] p-8 text-white relative overflow-hidden">
-          <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
-          
-          <h3 class="text-2xl font-black mb-4 relative z-10">Pro Tips</h3>
-          <p class="text-white/80 font-medium mb-6 relative z-10 leading-relaxed">
-            Completing your profile details increases your visibility to the People Solutions team by 40%.
-          </p>
-          
-          <div class="bg-white/20 backdrop-blur-md rounded-2xl p-4 border border-white/30 relative z-10">
-            <p class="text-xs font-bold uppercase mb-2">Profile Strength</p>
-            <div class="w-full h-2 bg-white/20 rounded-full">
-              <div class="h-full bg-white rounded-full w-[75%]"></div>
-            </div>
-            <p class="text-right text-xs mt-2 font-bold">75%</p>
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
   </div>
 </template>
 
 <script setup>
-// Logic for fetching user data would go here
-</script>
+import SettingItem from '~/components/SettingItem.vue'
 
-<style scoped>
-h1, h3, p {
-  font-family: Arial, sans-serif;
+const router = useRouter()
+const user = useState('user', () => null)
+
+const activeTab = ref('profile')
+const showAlert = ref(true)
+
+onMounted(() => {
+  const savedUser = localStorage.getItem('user')
+  if (savedUser) user.value = JSON.parse(savedUser)
+  if (!user.value) router.push('/login')
+})
+
+const form = reactive({
+  title: 'Senior UI/UX Designer',
+  expertise: 'Product Design, Branding, Marketing Strategy',
+  experience: '8 Years',
+  company: 'Creative Studio',
+  industry: 'Technology',
+  linkedin: '',
+  website: '',
+  bio: 'Passionate designer focused on user-centered experiences and scalable digital products.',
+  name: user.value?.name || '',
+  email: user.value?.email || '',
+  phone: '',
+  location: 'United States',
+  language: 'English',
+  password: '',
+  twofa: 'Enabled',
+  devices: 'MacBook Pro, iPhone 15'
+})
+
+const logout = () => {
+  user.value = null
+  localStorage.removeItem('user')
+  router.push('/login')
 }
-</style>
+
+const tabClass = (tab) =>
+  activeTab.value === tab
+    ? 'border-b-2 border-indigo-600 text-indigo-600 pb-3'
+    : 'pb-3 hover:text-indigo-600'
+
+// Avatar Upload Handler
+const onAvatarChange = (e) => {
+  const file = e.target.files[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = () => {
+    user.value.avatar = reader.result
+    localStorage.setItem('user', JSON.stringify(user.value))
+  }
+  reader.readAsDataURL(file)
+}
+</script>
