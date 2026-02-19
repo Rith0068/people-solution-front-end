@@ -7,3 +7,4 @@ import Footer from './components/Footer.vue';
     <NuxtPage />
     <Footer />
 </template>
+

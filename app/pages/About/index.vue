@@ -15,21 +15,18 @@
     <!-- Our Story Section -->
     <section class="bg-slate-50 py-20">
       <div class="max-w-7xl mx-auto px-6">
-        <div class="flex flex-col md:flex-row gap-12 items-start">
+        <div class="grid md:grid-cols-2 gap-12 items-start">
 
-          <!-- Left Content -->
-          <div class="flex-1">
+          <div>
             <span class="inline-block bg-yellow-400 text-slate-800 text-sm font-semibold px-4 py-1 rounded-full mb-6">
               OUR STORY
             </span>
             <h2 class="text-4xl md:text-5xl font-bold text-slate-800 leading-tight">
-              A Foundation Built on <br>
-              Local Expertise and Global Trust
+              A Foundation Built on <br> Local Expertise and Global Trust
             </h2>
           </div>
 
-          <!-- Right Content -->
-          <div class="flex-1 flex items-center">
+          <div>
             <p class="text-slate-600 text-lg leading-relaxed">
               PeopleCore was founded with a mission to make HR simpler, smarter,
               and more human-centered. Combining deep local expertise with global best practices,
@@ -49,20 +46,19 @@
     <section class="py-20 bg-slate-50">
       <div class="max-w-7xl mx-auto px-6">
 
-        <div class="flex flex-col items-center mb-6">
+        <div class="text-center mb-6">
           <span class="inline-block bg-yellow-400 text-slate-800 text-sm font-semibold px-4 py-1 rounded-full">
             Our Purpose
           </span>
-          <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mt-2 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mt-2 mx-auto text-center">
             Mission and Vision
           </h2>
-          <div class="w-50 h-1 bg-yellow-500 mt-4 rounded"></div>
+          <div class="w-50 h-1 bg-yellow-500 mt-4 rounded mx-auto"></div>
         </div>
 
-        <div class="flex flex-col md:flex-row gap-12 mt-16">
+        <div class="grid md:grid-cols-2 gap-12 mt-16">
 
-          <!-- Mission -->
-          <div class="flex-1 relative bg-white p-10 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border-l-4 border-yellow-500">
+          <div class="relative bg-white p-10 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border-l-4 border-yellow-500">
             <h3 class="text-2xl font-bold text-slate-800 mb-4">Our Mission</h3>
             <p class="text-slate-600 leading-relaxed">
               Our mission is to provide professional and reliable HR solutions that
@@ -72,8 +68,7 @@
             </p>
           </div>
 
-          <!-- Vision -->
-          <div class="flex-1 relative bg-white p-10 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border-l-4 border-yellow-500">
+          <div class="relative bg-white p-10 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border-l-4 border-yellow-500">
             <h3 class="text-2xl font-bold text-slate-800 mb-4">Our Vision</h3>
             <p class="text-slate-600 leading-relaxed">
               Our vision is to become a leading HR partner recognized for excellence,
@@ -89,10 +84,9 @@
     <!-- Who We Are -->
     <section class="bg-gray-50 py-24">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="flex flex-col lg:flex-row gap-16 items-center">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
 
-          <!-- Left Side -->
-          <div class="flex-1">
+          <div>
             <span class="inline-block bg-yellow-400 text-slate-800 text-sm font-semibold px-4 py-1 rounded-full">
               Who We Are
             </span>
@@ -112,10 +106,8 @@
             </p>
           </div>
 
-          <!-- Right Side -->
-          <div class="flex-1 bg-white p-12 rounded-2xl shadow-sm border border-gray-100">
-            <div class="flex flex-col gap-8">
-
+          <div class="bg-white p-12 rounded-2xl shadow-sm border border-gray-100">
+            <div class="space-y-8">
               <div>
                 <h3 class="text-xl font-semibold mb-2 text-yellow-500">Our Expertise</h3>
                 <p class="text-slate-600 leading-relaxed">
@@ -123,7 +115,6 @@
                   recruitment support, and workforce development solutions.
                 </p>
               </div>
-
               <div class="border-t border-gray-200 pt-8">
                 <h3 class="text-xl font-semibold mb-2 text-yellow-500">Our Commitment</h3>
                 <p class="text-slate-600 leading-relaxed">
@@ -131,7 +122,6 @@
                   that support sustainable business growth.
                 </p>
               </div>
-
               <div class="border-t border-gray-200 pt-8">
                 <h3 class="text-xl font-semibold text-yellow-500 mb-2">Our Approach</h3>
                 <p class="text-slate-600 leading-relaxed">
@@ -139,7 +129,6 @@
                   with employee well-being and organizational success.
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -151,7 +140,7 @@
     <section class="bg-gray-50 py-28">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
-        <div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-20">
+        <div class="text-center max-w-3xl mx-auto mb-20">
           <span class="inline-block bg-yellow-400 text-slate-800 text-sm font-semibold px-4 py-1 rounded-full">
             Our Values
           </span>
@@ -164,10 +153,9 @@
           </p>
         </div>
 
-        <div class="flex flex-col sm:flex-row flex-wrap gap-8 justify-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-          <!-- Value 1 -->
-          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex-1 min-w-[200px]">
+          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
             <div class="bg-yellow-100 w-16 h-16 flex items-center justify-center rounded-full mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3" />
@@ -179,8 +167,7 @@
             </p>
           </div>
 
-          <!-- Value 2 -->
-          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex-1 min-w-[200px]">
+          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
             <div class="bg-yellow-100 w-16 h-16 flex items-center justify-center rounded-full mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4" />
@@ -192,8 +179,7 @@
             </p>
           </div>
 
-          <!-- Value 3 -->
-          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex-1 min-w-[200px]">
+          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
             <div class="bg-yellow-100 w-16 h-16 flex items-center justify-center rounded-full mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -205,8 +191,7 @@
             </p>
           </div>
 
-          <!-- Value 4 -->
-          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex-1 min-w-[200px]">
+          <div class="flex flex-col items-center bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition duration-300">
             <div class="bg-yellow-100 w-16 h-16 flex items-center justify-center rounded-full mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
@@ -219,7 +204,6 @@
           </div>
 
         </div>
-
       </div>
     </section>
 
