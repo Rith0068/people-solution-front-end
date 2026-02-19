@@ -82,15 +82,6 @@
       <!-- ── AUTH BUTTONS (desktop) ── -->
       <div class="hidden lg:flex items-center gap-3 shrink-0">
         <NuxtLink
-          to="/login"
-          class="text-[14px] font-semibold text-blue-500 border-2 border-blue-500
-                 px-5 py-2 rounded-full
-                 hover:bg-blue-500 hover:text-white hover:-translate-y-0.5
-                 transition-all duration-300"
-        >
-          Log In
-        </NuxtLink>
-        <NuxtLink
           to="/signup"
           class="text-[14px] font-semibold text-white
                  bg-linear-to-r from-blue-500 to-blue-700
@@ -156,15 +147,6 @@
 
           <!-- Mobile auth buttons -->
           <div class="flex gap-3 pt-4 pb-2">
-            <NuxtLink
-              to="/login"
-              class="flex-1 text-center text-[14px] font-semibold text-blue-500
-                     border-2 border-blue-500 px-4 py-2 rounded-full
-                     hover:bg-blue-500 hover:text-white transition-all duration-300"
-              @click="menuOpen = false"
-            >
-              Log In
-            </NuxtLink>
             <NuxtLink
               to="/signup"
               class="flex-1 text-center text-[14px] font-semibold text-white
