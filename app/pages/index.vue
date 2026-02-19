@@ -1,8 +1,3 @@
 <template>
-<<<<<<< HEAD
-    home page
+    <p>home page</p>
 </template>
-=======
-  
-</template>
->>>>>>> feat/footer

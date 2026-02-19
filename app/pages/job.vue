@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <!-- Image -->
-    <img src="../assets/image/bg-service.jpg" alt="Sample Image" class="w-full h-100 object-cover" />
+    <img src="../assets/images/bg-service.jpg" alt="Sample Image" class="w-full h-100 object-cover" />
 
     <!-- Text Overlay -->
     <div class="absolute inset-0 flex mt-2.5 items-center justify-center">
@@ -21,23 +21,22 @@
       <ul class="grid grid-cols-2 md:grid-cols-8 gap-4">
         <!-- Category Item -->
          <li>
-          <a href="/jobs/All"
+          <a href="/job/All"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
-            
             <span class="font-medium text-gray-700">All</span>
           </a>
         </li>
         <li>
-          <a href="/jobs/technology"
+          <a href="/job/technology"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">Technology</span>
-          </a>
+          </a>        
         </li>
 
         <!-- Category Item -->
         <li>
-          <a href="/jobs/accounting"
+          <a href="/job/accounting"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">Accounting</span>
@@ -46,7 +45,7 @@
 
         <!-- Category Item -->
         <li>
-          <a href="/jobs/marketing"
+          <a href="/job/marketing"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">Marketing</span>
@@ -55,7 +54,7 @@
 
         <!-- Category Item -->
         <li>
-          <a href="/jobs/healthcare"
+          <a href="/job/healthcare"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">Healthcare</span>
@@ -64,7 +63,7 @@
 
          <!-- Category Item -->
         <li>
-          <a href="/jobs/design"
+          <a href="/job/design"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             <span class="font-medium text-gray-700">Design</span>
           </a>
@@ -73,7 +72,7 @@
 
        <!-- Category Item -->
         <li>
-          <a href="/jobs/finance"
+          <a href="/job/finance"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">finance</span>
@@ -82,7 +81,7 @@
 
            <!-- Category Item -->
         <li>
-          <a href="/jobs/sale"
+          <a href="/job/sale"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
             
             <span class="font-medium text-gray-700">sale</span>
