@@ -2,7 +2,7 @@
   <!-- hero section service -->
   <div class="relative">
     <!-- Image -->
-    <img src="../assets/image/job-requirment.jpg" alt="Sample Image" class="w-full h-100  object-cover" />
+    <img src="../assets/images/job-requirment.jpg" alt="Sample Image" class="w-full h-100  object-cover" />
 
     <!-- Text Overlay -->
     <div class="absolute inset-0 mx-aotu mt-30 items-center justify-center">
