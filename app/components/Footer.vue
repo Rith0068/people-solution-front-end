@@ -79,7 +79,6 @@
                 <div class="flex ml-15 text-[18px] gap-2.5">
                     <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
                         <i class="fa-solid fa-location-dot mt-1.25 text-blue-400"></i>
-
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         #306BCD, 3rd Floor, Monivong Boulevard, Phnom Penh, Cambodia
@@ -92,7 +91,6 @@
                 <div class="flex ml-15 text-[18px] gap-2.5">
                     <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
                         <i class="fa-regular fa-envelope mt-1.25 text-blue-400"></i>
-
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         info@premiumhumanresources.com
@@ -192,9 +190,7 @@
         <!--last foot-->
         <hr>
         <div class="flex">
-
-            <h3 class="m-auto text-[22px] p-5 text-gray-50">
-
+        <h3 class="m-auto text-[15px] p-[20px] text-gray-50">
                 © 2023 Human Resource Service. All rights reserved.
             </h3>
         </div>

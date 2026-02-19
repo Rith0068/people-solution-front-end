@@ -131,7 +131,7 @@ const navLinks = [
 
     { label: 'HOME', to: '/' },
     { label: 'ABOUT US', to: '/about' },
-    { label: 'OUR SERVICES', to: '/services' },
+    { label: 'OUR SERVICES', to: '/service' },
     { label: 'CONTACT US', to: '/contact' },
     { label: 'JOB', to: '/job' }
 

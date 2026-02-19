@@ -137,6 +137,4 @@ const scrollToTop = () => {
 .shadow-xl:hover {
   transform: translateY(-5px);
 }
-
-er
 </style>
