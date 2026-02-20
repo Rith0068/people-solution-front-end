@@ -63,7 +63,7 @@
             class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out ">
             <div class="text-left space-y-4 fles-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/growth.png" alt="investment">
+                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/growth.png" alt="investment">
               </div>
               <h3 class="text-lg font-semibold text-black">PEO / EOR Partnership Services</h3>
               <p class="text-gray-600 text-sm leading-relaxed">As your local PEO provider, we provide seamless expertise
@@ -84,7 +84,7 @@
             class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out ">
             <div class="text-left space-y-4 fles-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/coin.png" alt="money">
+                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/coin.png" alt="money">
               </div>
               <h3 class="text-lg font-semibold text-black">Payroll & National Social Security Fund (NSSF)</h3>
               <p class="text-gray-600 text-sm leading-relaxed">AEliminate expensive mistakes. Our payroll & NSSF
@@ -104,7 +104,7 @@
             class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out  ">
             <div class="text-left space-y-4 fles-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/check-mark.png"
+                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/check-mark.png"
                   alt="check-mark.png">
               </div>
               <h3 class="text-lg font-semibold text-black">Labor Law Compliance & Registration</h3>
@@ -124,7 +124,7 @@
             class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out  ">
             <div class="text-left space-y-4 fles-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/growth.png" alt="investment">
+                <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/growth.png" alt="investment">
               </div>
               <h3 class="text-lg font-semibold text-black">Staffing and Recruitment</h3>
               <p class="text-gray-600 text-sm leading-relaxed">We provide strategic recruitment services to bring you

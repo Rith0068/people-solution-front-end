@@ -26,6 +26,7 @@
             <span class="font-medium text-gray-700">All</span>
           </a>
         </li>
+        
         <li>
           <a href="/job/technology"
             class="block p-4 text-center bg-gray-50 hover:bg-blue-50 rounded-md border border-gray-100 transition duration-300">
