@@ -41,7 +41,6 @@
 <script setup>
 import { ref } from 'vue';
 
-// Data array for easy maintenance
 const contactDetails = ref([
   {
     title: 'Phone Number',
@@ -50,7 +49,7 @@ const contactDetails = ref([
   },
   {
     title: 'Email Address',
-    content: 'info@premiumhumanresources.com',
+    content: 'seyharaksa@people-solution.com',
     icon: 'fa-envelope'
   },
   {
@@ -62,7 +61,7 @@ const contactDetails = ref([
 </script>
 
 <style scoped>
-/* Optional: Add smooth entry animations */
+
 .shadow-xl {
   transform: translateY(0);
 }
