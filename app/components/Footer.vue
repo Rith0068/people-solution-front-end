@@ -99,9 +99,11 @@
 
                 <br>
 
+
                 <div class="flex ml-15 text-[18px] gap-2.5">
                     <span class="rounded-[360px] bg-yellow-500 w-7.5 h-7.5 justify-center flex">
                         <i class="fa-solid fa-phone mt-1.25 text-blue-400"></i>
+
                     </span>
                     <p class="text-gray-50 text-[18px]">
                         +855 012 902 527 
@@ -121,6 +123,7 @@
         <h4 class="text-white text-[18px] font-bold tracking-widest uppercase relative w-fit mr-25
                 after:absolute after:bottom-8 after:left-0
                 after:w-full after:h-0.75 after:bg-yellow-400 after:rounded-full">
+
         Quick Links
         </h4>
 
@@ -140,9 +143,11 @@
     </nav>
 
   </div>
+
                 <div class="flex flex-col gap-4">
         <h4 class="text-white text-[17px] font-bold tracking-wider uppercase mr-25
                    pb-2 border-b-2 border-yellow-400 w-fit">
+
           Follow Us
         </h4>
         <div class="flex flex-col gap-3">
