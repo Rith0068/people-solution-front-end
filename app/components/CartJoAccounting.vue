@@ -1,11 +1,21 @@
 <script setup>
-import data from "@/data/jobAccounting.json"
+import axios from 'axios';
+
+const key = "16585b8481e5a15faac681095cb0527a5d6a3d228e25f41a6531dd5eb647abe9298f669875331c0065a4080845edd51a4d953e4a3319aea64217c93db6ef4048325c00a189f7be983be198fa0212248bf98647292f34fd30f3e75f0f5403b7f5927059b2bc8bc4bcbe8bf632f631f6ce0993b38a580dc12a8fab7a786cc4b0e5";
+
+const res = await axios.get('http://localhost:1337/api/job-accountings', {
+  headers: {
+    Authorization: `Bearer ${key}`
+  }
+});
+
+const jobs = res.data.data;
 </script>
 
-<template>
-  <div class=" bg-slate-100">
+<template>  
+  <div>
     <div class="flex flex-wrap gap-6">
-        <div v-for="job in data.slice(0, 10)" :key="job.id" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl w-[260px] overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
+        <div v-for="job in jobs.slice(0)" :key="job.id" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl w-[260px] overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
 
  
         <div class="overflow-hidden w-full h-[180px] bg-slate-200">

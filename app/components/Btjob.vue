@@ -1,12 +1,10 @@
 <script setup></script>
 <template>
     <!-- tittle catgories -->
-  <div class="w-full max-w-(--ui-container) mx-auto px-4 sm:px6 py-6 z-100 top-10 sticky">
-
+     <h2 class="text-3xl font-semibold 0 mb-4 ps-2 none ml-[120px] pt-[10px]">Job Categories</h2>
+  <div class="w-full max-w-(--ui-container) mx-auto z-100 top-20 sticky">
     <!-- Job Categories Wrapper -->
     <div class="w-full max-w-7xl mx-auto p-4 bg-white-300 shadow-2xl rounded-md my-6">
-      <h2 class="text-3xl font-semibold 0 mb-4 ps-2 none">Job Categories</h2>
-
       <ul class="grid grid-cols-2 md:grid-cols-8 gap-4">
         <!-- Category Item -->
          <li v-for="activeLink in link" :key="activeLink">

@@ -3,11 +3,11 @@ import Btjob from '~/components/Btjob.vue';
 import CartJoAccounting from '~/components/CartJoAccounting.vue';
 import { ref } from 'vue';
 
-const showMore = ref(false)
+const showMore = ref(false);
 </script>
 <template>
     <Btjob />
-    <CartJobAll class="xl:pl-[40px]"/>
+    <CartJoAccounting class="xl:pl-[40px]"/>
     <div v-if="showMore" class="xl:pl-[40px]">
         <br>
         <CartJoAccounting />
