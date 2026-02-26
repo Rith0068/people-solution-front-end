@@ -1,6 +1,10 @@
 <template>
   <header
+<<<<<<< HEAD
     :class="bg-blue-300">
+=======
+    :class="['w-full z-100 top-0 sticky bg-white transition-all duration-300 ease-in-out', scrolled ? 'shadow-2xl py-2' : 'shadow-xl py-3']">
+>>>>>>> feat/home-page
     <div class="max-w-350 mx-auto px-6 flex items-center justify-between gap-6">
 
       <NuxtLink to="/" class="flex items-center gap-2 shrink-0">
@@ -31,9 +35,24 @@
       </NuxtLink>
 
       <nav class="hidden lg:flex items-center gap-7">
+<<<<<<< HEAD
         <NuxtLink v-for="link in navLinks" :key="link.label" :to="link.to"
           class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:text-blue-600 transition-colors duration-200"
           active-class="text-blue-600 after:w-full">
+=======
+        <NuxtLink
+          v-for="link in navLinks"
+          :key="link.label"
+          :to="link.to"
+          class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap
+                 after:absolute after:bottom-0 after:left-0
+                 after:w-0 after:h-0.5 after:bg-blue-500
+                 after:transition-all after:duration-300
+                 hover:after:w-full hover:text-blue-600
+                 transition-colors duration-200"
+          active-class="text-blue-600 after:w-full"
+        >
+>>>>>>> feat/home-page
           {{ link.label }}
         </NuxtLink>
       </nav>
@@ -44,6 +63,21 @@
           class="text-[14px] font-semibold text-white bg-linear-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300">
           Sign Up Free
         </NuxtLink>
+<<<<<<< HEAD
+=======
+        <NuxtLink
+          to="/signup"
+          class="text-[14px] font-semibold text-white
+                 bg-linear-to-r from-blue-500 to-blue-700
+                 px-5 py-2 rounded-full shadow-md
+                 hover:from-blue-600 hover:to-blue-800
+                 hover:shadow-blue-300 hover:shadow-lg hover:-translate-y-0.5
+                 transition-all duration-300"
+        >
+          Sign Up
+        </NuxtLink>
+      </div>
+>>>>>>> feat/home-page
 
         <div v-else class="flex items-center gap-4">
           <NuxtLink to="/profile"
@@ -59,10 +93,38 @@
             </div>
           </NuxtLink>
 
+<<<<<<< HEAD
           <button @click="logout" class="text-xs font-bold text-red-400 hover:text-red-600 underline">
             Logout
           </button>
         </div>
+=======
+          <!-- Mobile auth buttons -->
+          <div class="flex gap-3 pt-4 pb-2">
+            <NuxtLink
+              to="/login"
+              class="flex-1 text-center text-[14px] font-semibold text-blue-500
+                     border-2 border-blue-500 px-4 py-2 rounded-full
+                     hover:bg-blue-500 hover:text-white transition-all duration-300"
+              @click="menuOpen = false"
+            >
+              Log In
+            </NuxtLink>
+            <NuxtLink
+              to="/signup"
+              class="flex-1 text-center text-[14px] font-semibold text-white
+                     bg-linear-to-r from-blue-500 to-blue-700
+                     px-4 py-2 rounded-full shadow-md
+                     hover:from-blue-600 hover:to-blue-800 transition-all duration-300"
+              @click="menuOpen = false"
+            >
+              Sign Up
+            </NuxtLink>
+          </div>
+        </nav>
+      </div>
+    </Transition>
+>>>>>>> feat/home-page
 
       </div>
 
@@ -128,11 +190,19 @@ const logout = () => {
 }
 
 const navLinks = [
+<<<<<<< HEAD
 
   { label: 'HOME', to: '/' },
   { label: 'ABOUT US', to: '/about' },
   { label: 'OUR SERVICES', to: '/services' },
   { label: 'CONTACT US', to: '/contact' },
   { label: 'JOB', to: '/job' }
+=======
+  { label: 'HOME',         to: '/'          },
+  { label: 'ABOUT US',     to: '/about'     },
+  { label: 'OUR SERVICE', to: '/service'  },
+  { label: 'CONTACT US',   to: '/contact'   },
+  { label: 'JOB REQUIRMENT', to: '/job-requirment'   },
+>>>>>>> feat/home-page
 ]
 </script>
