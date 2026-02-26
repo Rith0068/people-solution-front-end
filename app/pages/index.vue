@@ -2,7 +2,7 @@
     
     <!-- hero section -->
     <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <img src="@/assets/image/los.png" alt="" class="w-full h-full object-cover blur-[0.1px] absolute inset-0">
+        <img src="@/assets/images/los.png" alt="" class="w-full h-full object-cover blur-[0.1px] absolute inset-0">
         
         <div class="relative z-10 px-4 sm:px-8 lg:px-16 xl:ml-[100px] pt-12 sm:pt-20 lg:pt-[150px] max-w-7xl">
             <div class="text-start">
@@ -48,7 +48,7 @@
 
     <!-- About Section -->
     <div class="flex flex-col lg:flex-row mt-12 sm:mt-20 lg:mt-[100px] px-4 sm:px-8 lg:px-[70px] gap-8 lg:gap-12 xl:justify-around items-center lg:items-start w-[90%] m-auto">
-        <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[270px] rounded-[10px] object-cover">
+        <img src="@/assets/images/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[270px] rounded-[10px] object-cover">
         
         <div class="block w-full lg:w-auto max-w-2xl">
             <RouterLink to="about" class="bg-yellow-400 w-[90px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
@@ -110,7 +110,7 @@
                 class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out ">
                 <div class="text-left space-y-4 fles-grow">
                 <div class="w-14 h-14 flex items-center justify-center">
-                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/growth.png" alt="investment">
+                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/growth.png" alt="investment">
                 </div>
                 <h3 class="text-lg font-semibold text-black">PEO / EOR Partnership Services</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">As your local PEO provider, we provide seamless expertise
@@ -131,7 +131,7 @@
                 class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out ">
                 <div class="text-left space-y-4 fles-grow">
                 <div class="w-14 h-14 flex items-center justify-center">
-                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/coin.png" alt="money">
+                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/coin.png" alt="money">
                 </div>
                 <h3 class="text-lg font-semibold text-black">Payroll & National Social Security Fund (NSSF)</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">AEliminate expensive mistakes. Our payroll & NSSF
@@ -151,7 +151,7 @@
                 class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out  ">
                 <div class="text-left space-y-4 fles-grow">
                 <div class="w-14 h-14 flex items-center justify-center">
-                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/image/check-mark.png"
+                    <img class="-10 h-10 fill-none strock-currentColor" src="../assets/images/check-mark.png"
                     alt="check-mark.png">
                 </div>
                 <h3 class="text-lg font-semibold text-black">Labor Law Compliance & Registration</h3>
@@ -171,7 +171,7 @@
                 class="bg-white-500 rounded-2xl p-8 shadow-lg hover:shadow-lg transform transition hover:-translate-y-4 hover:scale-110duration-300 ease-out  ">
                 <div class="text-left space-y-4 fles-grow">
                 <div class="w-14 h-14 flex items-center justify-center">
-                    <img class="-10 h-10 fill-nonestrock-currentColor" src="../assets/image/growth.png" alt="investment">
+                    <img class="-10 h-10 fill-nonestrock-currentColor" src="../assets/images/growth.png" alt="investment">
                 </div>
                 <h3 class="text-lg font-semibold text-black">Staffing and Recruitment</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">We provide strategic recruitment services to bring you
@@ -190,7 +190,7 @@
 
         </section>
         <!-- sechtion img -->
-        <img src="@/assets/image/smart-city.jpg" alt="" class="m-auto rounded-lg mt-[50px] w-[1206px] h-[500px]">
+        <img src="@/assets/images/smart-city.jpg" alt="" class="m-auto rounded-lg mt-[50px] w-[1206px] h-[500px]">
 
         <br><br>
 
@@ -318,7 +318,7 @@
         </div>
             </div>
 
-            <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-[auto] lg:h-[270px] rounded-[10px] object-cover ">
+            <img src="@/assets/images/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-[auto] lg:h-[270px] rounded-[10px] object-cover ">
 
         </div>  
 

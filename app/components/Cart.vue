@@ -16,7 +16,7 @@ const properties = data
       <!-- Image -->
       <div class="overflow-hidden">
         <img
-          src="@/assets/image/technology.jpg"
+          src="@/assets/images/technology.jpg"
           :alt="property.distriction"
           class="w-full h-[200px] object-cover transition-transform duration-500 hover:scale-105"
         />
