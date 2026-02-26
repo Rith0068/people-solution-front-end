@@ -1,7 +1,11 @@
 <script setup>
 import axios from 'axios';
 const key = "16585b8481e5a15faac681095cb0527a5d6a3d228e25f41a6531dd5eb647abe9298f669875331c0065a4080845edd51a4d953e4a3319aea64217c93db6ef4048325c00a189f7be983be198fa0212248bf98647292f34fd30f3e75f0f5403b7f5927059b2bc8bc4bcbe8bf632f631f6ce0993b38a580dc12a8fab7a786cc4b0e5"
-const jobs = await axios.get('http://localhost:1337/api/carts')
+const jobs = await axios.get('http://localhost:1337/api/carts',{
+  headers: {
+    Authorization : `Bearer ${key}`
+  }
+})
 const properties = jobs.data.data
 </script>
 

@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 <template>
     <!-- tittle catgories -->
      <h2 class="text-3xl font-semibold 0 mb-4 ps-2 none ml-[120px] pt-[10px]">Job Categories</h2>

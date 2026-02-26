@@ -6,7 +6,7 @@ const jobs = await axios.get('http://localhost:1337/api/job-sales',{
   headers: {
     Authorization: ` Bearer ${key}`
   }
-})
+});
 const data = jobs.data.data
 </script>
 

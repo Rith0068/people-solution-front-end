@@ -8,6 +8,7 @@ const datas = await axios.get('http://localhost:1337/api/job-makings',{
   }
 );
 const data = datas.data.data;
+
 </script>
 
 <template>
