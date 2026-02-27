@@ -41,12 +41,12 @@
       <div class="hidden lg:flex items-center gap-3 shrink-0">
         
         <NuxtLink v-if="!user"
-          to="/signup"
+          to="/login"
 
           class="text-[14px] font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300"
 
         >
-          Sign Up Free
+          Sign In
         </NuxtLink>
 
         <div v-else class="flex items-center gap-4">
