@@ -7,12 +7,11 @@ const showMore = ref(false);
 </script>
 <template>
     <Btjob />
-    <CartJoAccounting class="xl:pl-[40px]"/>
-    <div v-if="showMore" class="xl:pl-[40px]">
+    <CartJoAccounting class="xl:pl-[70px]"/>
+    <div v-if="showMore" class="xl:pl-[70px]">
         <br>
         <CartJoAccounting />
-        <br>
-        <CartJoAccounting />
+
     </div>
     <div class="flex">
         

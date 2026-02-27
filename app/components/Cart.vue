@@ -1,12 +1,12 @@
 <script setup>
 import axios from 'axios';
-const key = "16585b8481e5a15faac681095cb0527a5d6a3d228e25f41a6531dd5eb647abe9298f669875331c0065a4080845edd51a4d953e4a3319aea64217c93db6ef4048325c00a189f7be983be198fa0212248bf98647292f34fd30f3e75f0f5403b7f5927059b2bc8bc4bcbe8bf632f631f6ce0993b38a580dc12a8fab7a786cc4b0e5"
+const key = "3ef60c49e6bed13eb14fa7de1460f5ca1a58c348cf1a2882dd52def6d0868bd0e2992eaae2608ba54902018c4a746f2cde3aab4767380899c20d5f689d67dabf7c68b7272c94373ea59ecf96be4f7c5bd7cf4ebb5ff76ed457f8dd2b63d82f2dba9fc1e1a69658e34a9c84a86e02e03fad521c1ee921a0cd19da5ce135b57eea"
 const jobs = await axios.get('http://localhost:1337/api/carts',{
   headers: {
     Authorization : `Bearer ${key}`
   }
 })
-const properties = jobs.data.data
+const properties = jobs.data.data;
 </script>
 
 
@@ -42,8 +42,8 @@ const properties = jobs.data.data
 
         <!-- Button pushed to bottom -->
         <div class="mt-auto">
-          <NuxtLink
-            to=""
+          <NuxtLink to="/services" 
+
             class="inline-flex items-center justify-center px-5 py-2 bg-yellow-400 text-white text-sm font-semibold rounded-lg
                    shadow-md hover:bg-yellow-500 hover:shadow-yellow-400/50
                    hover:-translate-y-0.5 active:scale-95

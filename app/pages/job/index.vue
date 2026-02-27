@@ -9,10 +9,8 @@ const showMore = ref(false)
 <template>
     <Bgservice />
     <Btjob />
-    <CartJobAll class="xl:pl-[40px]"/>
-    <div v-if="showMore" class="xl:pl-[40px]">
-        <br>
-        <CartJobAll />
+    <CartJobAll class="xl:pl-[70px]"/>
+    <div v-if="showMore" class="xl:pl-[70px]">
         <br>
         <CartJobAll />
     </div>

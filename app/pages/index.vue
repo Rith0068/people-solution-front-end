@@ -3,84 +3,57 @@
 
     <!-- Hero Section -->
     <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <img src="@/assets/image/los.png" alt="" class="w-full h-full object-cover blur-[0.1px] absolute inset-0">
-        
-        <div class="relative z-10 px-4 sm:px-8 lg:px-16 xl:ml-[100px] pt-12 sm:pt-20 lg:pt-[150px] max-w-7xl">
-            <div class="text-start">
-                <p class="text-gray-50 text-[18px] sm:text-[20px] lg:text-[24px] font-semibold text-yellow-500">
-                    PEO/EOR
-                </p>
-            </div>
-            <div class="text-start mt-2 sm:mt-4">
-                <h2 class="text-gray-50 text-[28px] sm:text-[36px] lg:text-[42px] font-semibold leading-tight">
-                    YOUR TRUSTED LOCATION PEO
-                    <br class="hidden sm:block">PARTNER.
-                </h2>
-            </div>
-            <div class="text-start mt-3 sm:mt-4">
-                <p class="text-gray-50 text-[16px] sm:text-[20px] lg:text-[24px] font-semibold">
-                    we provid seamless, local expertise and support,ensuring you global PEO/
-                    <br class="hidden lg:block">Correct calculations every month.
-                </p>
-            </div>
-            <div class="flex flex-col sm:flex-row gap-4 sm:gap-[20px] mt-6 sm:mt-[10px]">
-                <!-- Get Started Button -->
-                <button class="relative group overflow-hidden bg-yellow-400 text-gray-900 font-semibold w-full sm:w-[160px] h-[44px] rounded-full shadow-lg shadow-yellow-300/40 hover:shadow-yellow-400/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-95">
-                    <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide">
-                        Get Started
-                        <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
-                        </svg>
-                    </span>
-                    <div class="absolute inset-0 bg-yellow-300 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-full"></div>
-                </button>
+      <img src="@/assets/image/los.png" alt="" class="w-full h-full object-cover absolute inset-0">
+      <div class="absolute inset-0 bg-black/40"></div>
 
-                <!-- Learn More Button -->
-                <button class="relative group overflow-hidden bg-gray-500 text-gray-700 font-semibold w-full sm:w-[160px] h-[44px] rounded-full border-2 border-gray-300 hover:border-gray-700 transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-95">
-                    <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide group-hover:text-white transition-colors duration-300">
-                        Learn More
-                    </span>
-                    <div class="absolute inset-0 bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></div>
-                </button>
-            </div>
+      <div class="relative z-10 px-4 sm:px-8 lg:px-16 xl:ml-[100px] pt-12 sm:pt-20 lg:pt-[150px] max-w-7xl">
+        <p class="text-yellow-500 text-[18px] sm:text-[20px] lg:text-[24px] font-semibold">
+          PEO/EOR
+        </p>
+        <h2 class="text-gray-50 text-[28px] sm:text-[36px] lg:text-[42px] font-semibold leading-tight mt-2 sm:mt-4">
+          YOUR TRUSTED LOCATION PEO <br class="hidden sm:block"> PARTNER.
+        </h2>
+        <p class="text-gray-50 text-[16px] sm:text-[20px] lg:text-[24px] font-semibold mt-3 sm:mt-4">
+          We provide seamless, local expertise and support, ensuring your global PEO/<br class="hidden lg:block">
+          Correct calculations every month.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 mt-6">
+          <!-- Get Started -->
+          <button class="relative group overflow-hidden bg-yellow-400 text-gray-900 font-semibold w-full sm:w-[160px] h-[44px] rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
+            <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide">
+              Get Started
+              <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
+              </svg>
+            </span>
+            <div class="absolute inset-0 bg-yellow-300 translate-y-full group-hover:translate-y-0 transition-transform duration-300 rounded-full"></div>
+          </button>
+
+          <!-- Learn More -->
+          <button class="relative group overflow-hidden bg-transparent text-white font-semibold w-full sm:w-[160px] h-[44px] rounded-full border-2 border-white hover:border-gray-300 transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
+            <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide group-hover:text-white transition-colors duration-300">
+              Learn More
+            </span>
+            <div class="absolute inset-0 bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></div>
+          </button>
         </div>
       </div>
     </div>
 
     <!-- About Section -->
+    <div class="flex flex-col lg:flex-row mt-12 sm:mt-20 lg:mt-[100px] px-4 sm:px-8 lg:px-[70px] gap-8 lg:gap-12 xl:justify-around items-center w-[90%] m-auto">
+      <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[270px] rounded-[10px] object-cover">
 
-    <div class="flex flex-col lg:flex-row mt-12 sm:mt-20 lg:mt-[100px] px-4 sm:px-8 lg:px-[70px] gap-8 lg:gap-12 xl:justify-around items-center lg:items-start w-[90%] m-auto">
-        <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[270px] rounded-[10px] object-cover">
-        
-        <div class="block w-full lg:w-auto max-w-2xl">
-            <RouterLink to="about" class="bg-yellow-400 w-[90px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
-                <p class="m-auto text-gray-50 py-1.5">
-                    About us
-                </p>
-            </RouterLink>
+      <div class="block w-full lg:w-auto max-w-2xl">
+        <RouterLink to="/about" class="bg-yellow-400 w-[90px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
+          <p class="m-auto text-gray-50 py-1.5">About us</p>
+        </RouterLink>
 
-            <div class="pt-4 pb-3">
-                <h2 class="font-semibold text-[20px] sm:text-[22px] lg:text-[24px] leading-tight">
-                    The Local HR Powerhouse Built for 
-                    <br class="hidden sm:block">Global Trust.
-                </h2>
-            </div>
-            
-            <div class="block">
-                <p class="text-[15px] sm:text-[16px] text-gray-700 leading-relaxed">
-                    We are a specialized HR outsourcing and PEO agency that connects
-                    complex global needs with local expertise. Serving as your 
-                    operational partner in Cambodia, we remove the administrative 
-                    burden and legal uncertainty across payroll, compliance, and talent 
-                    acquisition, allowing you to focus completely on strategic growth.  
-                </p>
-            </div>
-            
-            <RouterLink to="about" class="bg-yellow-400 mt-4 sm:mt-5 w-[130px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 hover:scale-105 transition-all duration-300 inline-flex">
-                <p class="m-auto text-gray-50 py-1.5">
-                    Explore More
-                </p>
-            </RouterLink>
+        <div class="pt-4 pb-3">
+          <h2 class="font-semibold text-[20px] sm:text-[22px] lg:text-[24px] leading-tight">
+            The Local HR Powerhouse Built for <br class="hidden sm:block"> Global Trust.
+          </h2>
         </div>
 
         <p class="text-[15px] sm:text-[16px] text-gray-700 leading-relaxed">
@@ -119,7 +92,7 @@
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transform transition hover:-translate-y-2 duration-300 ease-out flex flex-col">
             <div class="text-left space-y-4 flex-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="w-10 h-10 object-contain" src="@/assets/images/growth.png" alt="investment">
+                <img class="w-10 h-10 object-contain" src="@/assets/image/growth.png" alt="investment">
               </div>
               <h3 class="text-lg font-semibold text-black">PEO / EOR Partnership Services</h3>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -138,7 +111,7 @@
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transform transition hover:-translate-y-2 duration-300 ease-out flex flex-col">
             <div class="text-left space-y-4 flex-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="w-10 h-10 object-contain" src="@/assets/images/coin.png" alt="money">
+                <img class="w-10 h-10 object-contain" src="@/assets/image/coin.png" alt="money">
               </div>
               <h3 class="text-lg font-semibold text-black">Payroll & National Social Security Fund (NSSF)</h3>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -157,7 +130,7 @@
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transform transition hover:-translate-y-2 duration-300 ease-out flex flex-col">
             <div class="text-left space-y-4 flex-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="w-10 h-10 object-contain" src="@/assets/images/check-mark.png" alt="check-mark">
+                <img class="w-10 h-10 object-contain" src="@/assets/image/check-mark.png" alt="check-mark">
               </div>
               <h3 class="text-lg font-semibold text-black">Labor Law Compliance & Registration</h3>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -176,7 +149,7 @@
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transform transition hover:-translate-y-2 duration-300 ease-out flex flex-col">
             <div class="text-left space-y-4 flex-grow">
               <div class="w-14 h-14 flex items-center justify-center">
-                <img class="w-10 h-10 object-contain" src="@/assets/images/growth.png" alt="investment">
+                <img class="w-10 h-10 object-contain" src="@/assets/image/growth.png" alt="investment">
               </div>
               <h3 class="text-lg font-semibold text-black">Staffing and Recruitment</h3>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -191,15 +164,12 @@
             </div>
           </div>
 
-
-        </section>
-        <!-- sechtion img -->
-        <img src="@/assets/images/smart-city.jpg" alt="" class="m-auto rounded-lg mt-[50px] w-[1206px] h-[500px]">
-
         </div>
       </div>
     </section>
 
+    <!-- Section Image -->
+    <img src="@/assets/image/smart-city.jpg" alt="" class="m-auto rounded-lg mt-[50px] w-full max-w-[1206px] h-[500px] object-cover px-4">
 
     <br><br>
 
@@ -280,27 +250,10 @@
             </div>
           </details>
 
-            <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-[auto] lg:h-[270px] rounded-[10px] object-cover ">
-
-        </div>  
-
-        <br><br><br>
-        <!-- NEWS & INSIGHTS -->
-        <RouterLink to="about" class="bg-yellow-400 w-[130px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300 m-auto">
-            <p class="m-auto text-gray-50 py-1.5">
-                JOB & INSIGHTS
-            </p>
-        </RouterLink>    
-        <br>
-        <!-- Business Shaped Solutions -->
-        <div class="flex mt-5 sm:mt-6 lg:mt-[20px] px-4">
-            <h2 class="m-auto font-semibold text-[20px] sm:text-[22px] lg:text-[24px] leading-tight">
-                Business Shaped Solutions
-            </h2>
         </div>
       </div>
 
-      <img src="@/assets/images/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[400px] rounded-[10px] object-cover">
+      <img src="@/assets/image/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[400px] rounded-[10px] object-cover">
 
     </div>
 
@@ -308,7 +261,7 @@
 
     <!-- Jobs & Insights -->
     <div class="flex px-4">
-      <RouterLink to="/jobs" class="m-auto bg-yellow-400 w-[140px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
+      <RouterLink to="/job" class="m-auto bg-yellow-400 w-[140px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
         <p class="m-auto text-gray-50 py-1.5 text-sm">JOB & INSIGHTS</p>
       </RouterLink>
     </div>

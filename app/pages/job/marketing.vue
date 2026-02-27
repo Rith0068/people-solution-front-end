@@ -7,10 +7,8 @@ const showMore = ref(false)
 </script>
 <template>
     <Btjob />
-    <CartJobmarking class="xl:pl-[40px]"/>
-    <div v-if="showMore" class="xl:pl-[40px]">
-        <br>
-        <CartJobmarking />
+    <CartJobmarking class="xl:pl-[70px]"/>
+    <div v-if="showMore" class="xl:pl-[70px]">
         <br>
         <CartJobmarking />
     </div>
