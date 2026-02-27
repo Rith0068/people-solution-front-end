@@ -1,10 +1,13 @@
 <script setup>
 import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
+import Login from './pages/login.vue';
 </script>
 
 <template>
-    <Header />
-    <NuxtPage />
-    <Footer />
+
+  <Header />
+  <NuxtPage />
+  
+  <Footer />
+  
 </template>
