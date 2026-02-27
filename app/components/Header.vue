@@ -39,8 +39,12 @@
       </nav>
 
       <div class="hidden lg:flex items-center gap-3 shrink-0">
+<<<<<<< HEAD
         
         <NuxtLink v-if="!user"
+=======
+        <NuxtLink
+>>>>>>> feat/login
           to="/signup"
 
           class="text-[14px] font-semibold text-white bg-linear-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300"
@@ -63,10 +67,29 @@
             </div>
           </NuxtLink>
 
+<<<<<<< HEAD
           <button @click="logout" class="text-xs font-bold text-red-400 hover:text-red-600 underline">
             Logout
           </button>
         </div>
+=======
+          <!-- Mobile auth buttons -->
+          <div class="flex gap-3 pt-4 pb-2">
+            <NuxtLink
+              to="/signup"
+              class="flex-1 text-center text-[14px] font-semibold text-white
+                     bg-gradient-to-r from-blue-500 to-blue-700
+                     px-4 py-2 rounded-full shadow-md
+                     hover:from-blue-600 hover:to-blue-800 transition-all duration-300"
+              @click="menuOpen = false"
+            >
+              Sign Up
+            </NuxtLink>
+          </div>
+        </nav>
+      </div>
+    </Transition>
+>>>>>>> feat/login
 
       </div>
 
@@ -136,4 +159,4 @@ const navLinks = [
     { label: 'JOB', to: '/job' }
 
 ]
-</script>
+</script>o
