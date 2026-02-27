@@ -4,7 +4,7 @@
 <template>
     <div class="w-[93%] bg-gray-50 max-w-(--ui-container) mx-auto px-4 sm:px-6 py-6">
         <div class="flex">
-            <img src="../assets/images/Network-engineer.webp" alt="" class="w-[1000px] h-[300px] m-auto rounded-lg ">
+            <img src="../assets/images/Network-engineer.webp" alt="" class="w-250 h-75 m-auto rounded-lg ">
         </div>
         <div class="flex gap-4">
             <article class="flex-1 flex flex-col gap-y-3">
@@ -12,7 +12,7 @@
                     <div class="overflow-hidden relative">
                         <div class="flex p-4 gap-x-4 ">
                             <div class="block ">
-                                <h1 class="font-bold text-3xl leading-11  pr-42 text-blue-500 mt-[10px]">
+                                <h1 class="font-bold text-3xl leading-11  pr-42 text-blue-500 mt-2.5">
                                     Networking Engineer
                                 </h1>
                                 <div class="flex gap-4 text-sm mt-2 text-gray-600 dark:text-gray-400 ">
@@ -45,7 +45,7 @@
                         </div>
 
                         <!-- button apply job -->
-                        <div class="shadow-xl hover:shadow-yellow-500 bg-yellow-400 p-[5px] text-black-50 w-[140px]">
+                        <div class="shadow-xl hover:shadow-yellow-500 bg-yellow-400 p-1.25 text-black-50 w-35">
                             <NuxtLink to="/#" class="" type="button">
                                 Apply For this Job
                             </NuxtLink>

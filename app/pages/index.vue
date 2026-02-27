@@ -2,11 +2,11 @@
   <div>
 
     <!-- Hero Section -->
-    <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+    <div class="relative w-full h-100 sm:h-125 lg:h-162.5 overflow-hidden">
       <img src="@/assets/images/los.png" alt="" class="w-full h-full object-cover absolute inset-0">
       <div class="absolute inset-0 bg-black/40"></div>
 
-      <div class="relative z-10 px-4 sm:px-8 lg:px-16 xl:ml-[100px] pt-12 sm:pt-20 lg:pt-[150px] max-w-7xl">
+      <div class="relative z-10 px-4 sm:px-8 lg:px-16 xl:ml-25 pt-12 sm:pt-20 lg:pt-37.5 max-w-7xl">
         <p class="text-yellow-500 text-[18px] sm:text-[20px] lg:text-[24px] font-semibold">
           PEO/EOR
         </p>
@@ -20,7 +20,7 @@
 
         <div class="flex flex-col sm:flex-row gap-4 mt-6">
           <!-- Get Started -->
-          <button class="relative group overflow-hidden bg-yellow-400 text-gray-900 font-semibold w-full sm:w-[160px] h-[44px] rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
+          <button class="relative group overflow-hidden bg-yellow-400 text-gray-900 font-semibold w-full sm:w-40 h-11 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
             <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide">
               Get Started
               <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -31,7 +31,7 @@
           </button>
 
           <!-- Learn More -->
-          <button class="relative group overflow-hidden bg-transparent text-white font-semibold w-full sm:w-[160px] h-[44px] rounded-full border-2 border-white hover:border-gray-300 transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
+          <button class="relative group overflow-hidden bg-transparent text-white font-semibold w-full sm:w-40 h-11 rounded-full border-2 border-white hover:border-gray-300 transition-all duration-300 hover:-translate-y-0.5 active:scale-95">
             <span class="relative z-10 flex items-center justify-center gap-1.5 text-sm tracking-wide group-hover:text-white transition-colors duration-300">
               Learn More
             </span>
@@ -42,11 +42,11 @@
     </div>
 
     <!-- About Section -->
-    <div class="flex flex-col lg:flex-row mt-12 sm:mt-20 lg:mt-[100px] px-4 sm:px-8 lg:px-[70px] gap-8 lg:gap-12 xl:justify-around items-center w-[90%] m-auto">
-      <img src="@/assets/images/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-[500px] h-auto lg:h-[270px] rounded-[10px] object-cover">
+    <div class="flex flex-col lg:flex-row mt-12 sm:mt-20 lg:mt-25 px-4 sm:px-8 lg:px-17.5 gap-8 lg:gap-12 xl:justify-around items-center w-[90%] m-auto">
+      <img src="@/assets/images/tableTecnology.jpg" alt="" class="w-full sm:w-[80%] lg:w-125 h-auto lg:h-67.5 rounded-[10px] object-cover">
 
       <div class="block w-full lg:w-auto max-w-2xl">
-        <RouterLink to="/about" class="bg-yellow-400 w-[90px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
+        <RouterLink to="/about" class="bg-yellow-400 w-22.5 flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
           <p class="m-auto text-gray-50 py-1.5">About us</p>
         </RouterLink>
 
@@ -62,7 +62,7 @@
           across payroll, compliance, and talent acquisition, allowing you to focus completely on strategic growth.
         </p>
 
-        <RouterLink to="/about" class="bg-yellow-400 mt-4 sm:mt-5 w-[130px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 hover:scale-105 transition-all duration-300">
+        <RouterLink to="/about" class="bg-yellow-400 mt-4 sm:mt-5 w-32.5 flex rounded-[10px] shadow-xl hover:shadow-yellow-500 hover:scale-105 transition-all duration-300">
           <p class="m-auto text-gray-50 py-1.5">Explore More</p>
         </RouterLink>
       </div>
@@ -261,7 +261,7 @@
 
     <!-- Jobs & Insights -->
     <div class="flex px-4">
-      <RouterLink to="/jobs" class="m-auto bg-yellow-400 w-[140px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
+      <RouterLink to="/job" class="m-auto bg-yellow-400 w-[140px] flex rounded-[10px] shadow-xl hover:shadow-yellow-500 transition-shadow duration-300">
         <p class="m-auto text-gray-50 py-1.5 text-sm">JOB & INSIGHTS</p>
       </RouterLink>
     </div>
