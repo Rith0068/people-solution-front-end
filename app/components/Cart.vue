@@ -6,7 +6,7 @@ const properties = data
 
 
 <template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-[1260px]">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-315">
     <div
       v-for="property in properties.slice(0, 3)"
       :key="property.id"
@@ -18,7 +18,7 @@ const properties = data
         <img
           src="@/assets/images/technology.jpg"
           :alt="property.distriction"
-          class="w-full h-[200px] object-cover transition-transform duration-500 hover:scale-105"
+          class="w-full h-50 object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
 

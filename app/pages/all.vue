@@ -1,6 +1,7 @@
 <template>
     <div v-for="text in prop.slice(1, 5)" :key="text.id"  class="">
             {{ text.skill_name }}
+            
     </div>
 </template>
 
@@ -18,6 +19,6 @@ const api = await axios.get('http://localhost:1337/api/skills',
     }
 );
 const prop = api.data.data
-console.log(prop);
+console.log(prop)
 
 </script>
