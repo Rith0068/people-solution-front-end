@@ -2,7 +2,7 @@
 </script>
 <template>
     <!-- tittle catgories -->
-     <h2 class="text-3xl font-semibold 0 mb-4 ps-2 none ml-[120px] pt-[10px]">Job Categories</h2>
+     <h2 class="text-3xl font-semibold 0 mb-4 ps-2 none ml-30 pt-2.5">Job Categories</h2>
   <div class="w-full max-w-(--ui-container) mx-auto z-100 top-20 sticky">
     <!-- Job Categories Wrapper -->
     <div class="w-full max-w-7xl mx-auto p-4 bg-white-300 shadow-2xl rounded-md my-6">

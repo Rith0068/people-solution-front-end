@@ -4,7 +4,7 @@
 <template>
     <div class="w-[93%] bg-gray-50 max-w-(--ui-container) mx-auto px-4 sm:px-6 py-6">
         <div class="flex">
-            <img src="@/assets/images/smart-city.jpg" alt="" class="w-[1000px] h-[300px] m-auto rounded-lg ">
+            <img src="../assets/images/Network-engineer.webp" alt="" class="w-[1000px] h-[300px] m-auto rounded-lg ">
         </div>
         <div class="flex gap-4">
             <article class="flex-1 flex flex-col gap-y-3">

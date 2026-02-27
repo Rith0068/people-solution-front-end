@@ -1,6 +1,6 @@
 <script setup>
 import axios from 'axios';
-const key = "16585b8481e5a15faac681095cb0527a5d6a3d228e25f41a6531dd5eb647abe9298f669875331c0065a4080845edd51a4d953e4a3319aea64217c93db6ef4048325c00a189f7be983be198fa0212248bf98647292f34fd30f3e75f0f5403b7f5927059b2bc8bc4bcbe8bf632f631f6ce0993b38a580dc12a8fab7a786cc4b0e5";
+const key = "5cfebb07d4c1eea7806b3407c1e8de1b0b7fd46fccd8c4c582cf7edb4968beee98f9112e8a022f0d657138f6701dfeb78b78303c70378f8948d7f151a17564894c647bd9314b857aa906a7b6297d08fa6fa73e52cd52d1abe282c42626555b2ade9be92a425fb93bfc98c2d14a37928deee3bbf98a512b231ec6c99800bc0748";
 const datas = await axios.get('http://localhost:1337/api/job-technologies',{
   headers: {
     Authorization : `Bearer ${key}`
@@ -12,10 +12,10 @@ const data = datas.data.data;
 <template>
   <div class="">
     <div class="flex flex-wrap gap-6">
-        <div v-for="job in data.slice(0, 10)" :key="job.id" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl w-[260px] overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
+        <div v-for="job in data.slice(0, 10)" :key="job.id" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl w-65 overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
 
  
-        <div class="overflow-hidden w-full h-[180px] bg-slate-200">
+        <div class="overflow-hidden w-full h-45 bg-slate-200">
           <img :src="job.picture || 'https://placehold.co/260x180'" :alt="job.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
         </div>
 

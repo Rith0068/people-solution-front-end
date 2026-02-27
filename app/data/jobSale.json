@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Sales Executive",
+    "company": "Smart Axiata",
+    "location": "Phnom Penh",
+    "salary": "$400 - $700",
+    "picture": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Senior Sales Executive",
+    "company": "Cellcard",
+    "location": "Phnom Penh",
+    "salary": "$700 - $1200",
+    "picture": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=400&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Sales Manager",
+    "company": "Chip Mong Group",
+    "location": "Phnom Penh",
+    "salary": "$1500 - $2500",
+    "picture": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Area Sales Representative",
+    "company": "Cambrew Ltd",
+    "location": "Phnom Penh",
+    "salary": "$500 - $800",
+    "picture": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Sales Supervisor",
+    "company": "Crown Food Cambodia",
+    "location": "Phnom Penh",
+    "salary": "$800 - $1200",
+    "picture": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Key Account Manager",
+    "company": "Unilever Cambodia",
+    "location": "Phnom Penh",
+    "salary": "$1500 - $2500",
+    "picture": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&q=80"
+  },
+  {
+    "id": 7,
+    "title": "B2B Sales Specialist",
+    "company": "Metfone",
+    "location": "Phnom Penh",
+    "salary": "$600 - $1000",
+    "picture": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Retail Sales Associate",
+    "company": "Aeon Mall",
+    "location": "Phnom Penh",
+    "salary": "$250 - $450",
+    "picture": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&q=80"
+  },
+  {
+    "id": 9,
+    "title": "Sales Director",
+    "company": "Vattanac Properties",
+    "location": "Phnom Penh",
+    "salary": "$3000 - $5000",
+    "picture": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Insurance Sales Agent",
+    "company": "Forte Insurance",
+    "location": "Phnom Penh",
+    "salary": "$400 - $800",
+    "picture": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Real Estate Sales Consultant",
+    "company": "CBRE Cambodia",
+    "location": "Phnom Penh",
+    "salary": "$600 - $1500",
+    "picture": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&q=80"
+  },
+  {
+    "id": 12,
+    "title": "Telesales Representative",
+    "company": "Wing Bank",
+    "location": "Phnom Penh",
+    "salary": "$300 - $500",
+    "picture": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&q=80"
+  }
+]

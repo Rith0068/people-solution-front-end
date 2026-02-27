@@ -5,7 +5,7 @@
             <div class="block" >
                 <!--logo-->
                 <div>
-                    <NuxtLink to="/" class="flex items-center gap-2 shrink-0 mt-[50px] ml-[50px]">
+                    <NuxtLink to="/" class="flex items-center gap-2 shrink-0 mt-12.5 ml-12.5">
 
                         <!-- PS Monogram -->
                         <div class="flex items-end">
@@ -190,7 +190,7 @@
         <!--last foot-->
         <hr>
         <div class="flex">
-        <h3 class="m-auto text-[15px] p-[20px] text-gray-50">
+        <h3 class="m-auto text-[15px] p-5 text-gray-50">
                 © 2023 Human Resource Service. All rights reserved.
             </h3>
         </div>

@@ -31,7 +31,7 @@
       <nav class="hidden lg:flex items-center gap-7">
 
         <NuxtLink v-for="link in navLinks" :key="link.label" :to="link.to"
-          class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:text-blue-600 transition-colors duration-200"
+          class="relative text-[15px] font-semibold text-gray-800 pb-1 whitespace-nowrap after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:text-blue-600 transition-colors duration-200"
           active-class="text-blue-600 after:w-full">
 
           {{ link.label }}
@@ -43,7 +43,7 @@
         <NuxtLink v-if="!user"
           to="/signup"
 
-          class="text-[14px] font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300"
+          class="text-[14px] font-semibold text-white bg-linear-to-r from-blue-500 to-blue-700 px-6 py-2.5 rounded-full shadow-md hover:from-blue-600 hover:to-blue-800 hover:shadow-lg transition-all duration-300"
 
         >
           Sign Up Free
@@ -131,7 +131,7 @@ const navLinks = [
 
     { label: 'HOME', to: '/' },
     { label: 'ABOUT US', to: '/about' },
-    { label: 'OUR SERVICES', to: '/services' },
+    { label: 'OUR SERVICES', to: '/service' },
     { label: 'CONTACT US', to: '/contact' },
     { label: 'JOB', to: '/job' }
 

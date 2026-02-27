@@ -272,9 +272,9 @@
       </h2>
     </div>
 
-    <div class="flex mt-10 justify-center gap-6 flex-wrap px-4">
+    <!-- <div class="flex mt-10 justify-center gap-6 flex-wrap px-4">
       <Cart />
-    </div>
+    </div> -->
 
     <br>
 
